@@ -2,3 +2,214 @@
   padding: 0;
   margin: 0;
 }
+:root {
+  --nav-color: #212121;
+  --main-white-color: #ffffff;
+  --second-color: #757575;
+  --font-family-nav: 'Roboto', Sans-serif;
+  --hover-color: #2196f3;
+}
+.body {
+  width: 1600px;
+}
+.nav-logo a {
+  text-decoration: none;
+  color: var(--nav-color);
+  font-family: 'Raleway', Sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.nav-had a {
+  text-decoration: none;
+  color: var(--nav-color);
+
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+a.logo {
+  color: var(--hover-color);
+}
+.contact a {
+  font-family: var(--font-family-nav);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.nav-logo a:hover,
+.nav-logo a:focus {
+  color: var(--hover-color);
+}
+.nav-had a:hover,
+.nav-had a:focus {
+  color: var(--hover-color);
+}
+.contact a:hover,
+.contact a:focus {
+  color: var(--hover-color);
+}
+.main-foto a {
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color: var(--main-white-color);
+}
+.main-foto {
+  display: block;
+  width: 1600px;
+  height: 600px;
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--main-white-color);
+  background-color: var(--hover-color);
+  background-image: url('/img/photo/Headerimg.png');
+}
+.icon {
+  width: 270px;
+  height: 251px;
+}
+.icon a {
+  display: block;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.icon h3 {
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--nav-color);
+}
+.icon p {
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+.card-foto a {
+  display: inline-block;
+  width: 370px;
+  height: 70px;
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--main-white-color);
+  background: rgba(47, 48, 58, 0.8);
+}
+.hat {
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--nav-color);
+}
+.icon-client li {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.icon-client li:hover,
+.icon-client li:focus {
+  border: 1px solid var(--hover-color);
+  color: var(--hover-color);
+}
+.icon-client img:hover,
+.icon-client img:focus {
+  background-color: var(--hover-color);
+}
+.our-team {
+  background: #f5f4fa;
+}
+.our-team h3 {
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--nav-color);
+}
+.our-team p {
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+.down {
+  width: 1600px;
+  height: 253px;
+  background: #2f303a;
+}
+.down p {
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--main-white-color);
+}
+.down-address {
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.down h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
