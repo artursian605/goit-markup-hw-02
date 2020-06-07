@@ -8,7 +8,8 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <!--Навигация-->
+    <header id="http://127.0.0.1:5500/portfolio.html">
       <nav class="nav-logo">
         <a class="logo" href="#">Web</a>
         <a href="">Studio</a>
@@ -24,25 +25,25 @@
               <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-              <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+              <a href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
       </nav>
     </header>
+
     <main>
-      <section>
-        <nav>
-          <ul class="pfnav">
-            <li><a href="">Все</a></li>
-            <li><a href="">Веб-сайты</a></li>
-            <li><a href="">Приложения</a></li>
-            <li><a href="">Дизайн</a></li>
-            <li><a href="">Маркетинг</a></li>
-          </ul>
-        </nav>
-      </section>
-      <section>
+      <nav>
+        <ul class="pfnav">
+          <li><a href="">Все</a></li>
+          <li><a href="#website">Веб-сайты</a></li>
+          <li><a href="#attachment">Приложения</a></li>
+          <li><a href="#design">Дизайн</a></li>
+          <li><a href="#marketing">Маркетинг</a></li>
+        </ul>
+      </nav>
+
+      <section class="pf-main">
         <ul>
           <li>
             <a href=""
@@ -54,7 +55,7 @@
                 height="294"
             /></a>
             <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <p id="website">Веб-сайт</p>
           </li>
           <li>
             <a href="#"
@@ -66,7 +67,7 @@
                 height="294"
             /></a>
             <h3>Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <p id="design">Дизайн</p>
           </li>
           <li>
             <a href="#"
@@ -78,7 +79,7 @@
                 height="294"
             /></a>
             <h3>Ресторан Seafood</h3>
-            <p>Приложение</p>
+            <p id="attachment">Приложение</p>
           </li>
           <li>
             <a href="#"
@@ -90,7 +91,7 @@
                 height="294"
             /></a>
             <h3>Проект Prime</h3>
-            <p>Маркетинг</p>
+            <p id="marketing">Маркетинг</p>
           </li>
           <li>
             <a href="#"
@@ -156,13 +157,13 @@
       </section>
     </main>
     <!--Футтер-->
-    <footer>
+    <footer class="down">
       <a href="#"><img src="./img/Icon/WebStudio.svg" alt="WebStudio"/></a>
       <address class="contact">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <ul>
+        <ul class="down-address">
           <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+38 099 111 11 11">+38 099 111 11 11</a></li>
+          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
 

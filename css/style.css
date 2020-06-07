@@ -203,13 +203,63 @@ a.logo {
   color: rgba(255, 255, 255, 0.6);
 }
 .down h3 {
-  font-family: Roboto;
+  font-family: var(--font-family-nav);
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #ffffff;
+  color: var(--main-white-color);
+}
+.pfnav li {
+  width: 128px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.pfnav a {
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: var(--nav-color);
+  text-decoration: none;
+}
+.pfnav li:hover,
+.pfnav li:focus {
+  background-color: var(--hover-color);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.pfnav li a:hover,
+.pfnav li a:focus {
+  color: var(--main-white-color);
+}
+.pf-main h3 {
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--nav-color);
+}
+.pf-main p {
+  font-family: var(--font-family-nav);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+.pf-main li {
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
