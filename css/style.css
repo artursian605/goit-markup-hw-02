@@ -82,7 +82,7 @@ a.logo {
   text-decoration: none;
   color: var(--main-white-color);
   background-color: var(--hover-color);
-  background-image: url('/goit-markup-hw-02/img/photo/Headerimg.png');
+  background-image: url('../img/photo/Headerimg.png');
 }
 .icon {
   width: 270px;
