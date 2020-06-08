@@ -63,8 +63,6 @@ a.logo {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   text-decoration: none;
   color: var(--main-white-color);
@@ -84,7 +82,7 @@ a.logo {
   text-decoration: none;
   color: var(--main-white-color);
   background-color: var(--hover-color);
-  background-image: url('/img/photo/Headerimg.png');
+  background-image: url('/goit-markup-hw-02/img/photo/Headerimg.png');
 }
 .icon {
   width: 270px;
@@ -212,13 +210,8 @@ a.logo {
   text-transform: uppercase;
   color: var(--main-white-color);
 }
-.pfnav li {
-  width: 128px;
-  height: 38px;
-  background: #f5f4fa;
-  border-radius: 4px;
-}
-.pfnav a {
+
+.pfnav button {
   font-family: var(--font-family-nav);
   font-style: normal;
   font-weight: 500;
@@ -226,18 +219,20 @@ a.logo {
   line-height: 26px;
   letter-spacing: 0.03em;
   color: var(--nav-color);
+  width: 128px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
   text-decoration: none;
 }
-.pfnav li:hover,
-.pfnav li:focus {
+
+.pfnav li button:hover,
+.pfnav li button:focus {
+  color: var(--main-white-color);
   background-color: var(--hover-color);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-}
-.pfnav li a:hover,
-.pfnav li a:focus {
-  color: var(--main-white-color);
 }
 .pf-main h3 {
   font-family: var(--font-family-nav);
